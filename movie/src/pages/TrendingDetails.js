@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 
 const TrendingDetails = ({trendingId, setTrendingId}) => {
-  console.log(trendingId)
   const image_base_url= 'https://image.tmdb.org/t/p/w500';
   return (
     <div className="moviedetails-card">
@@ -13,7 +12,7 @@ const TrendingDetails = ({trendingId, setTrendingId}) => {
  			<p>{trendingId.overview}</p>
  			<p>{trendingId.release_date}</p>
 			 <div className="youtube">
- 				<Link to="/trending"><button>Back</button></Link>
+ 				<button><Link to='/trending'>Back</Link></button>
 			 </div>
  			</div>
  		</div>

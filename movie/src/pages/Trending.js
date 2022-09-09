@@ -15,7 +15,7 @@ const Trending = ({setTrendingId, trendingId}) => {
 
 
   const [currentPage, setCurrentPage] = useState(1);
-  const PerPage = 6;
+  const PerPage = 8;
   const indexOfLastExercise = currentPage * PerPage;
 
   const indexOfFirstExercise = indexOfLastExercise - PerPage

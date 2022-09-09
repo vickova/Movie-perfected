@@ -26,6 +26,7 @@ const LoadingStyle = styled.div`
   display: flex;
 		justify-content: center;
 		align-items: center;
+    height:100vh;
     .inner{
       border-radius: 50%;
 		width: 50px;

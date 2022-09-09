@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 
 const PopularDetails = ({detailsId, setDetailsId}) => {
-  console.log(detailsId)
   const image_base_url= 'https://image.tmdb.org/t/p/w500';
   
   return (
@@ -14,7 +13,7 @@ const PopularDetails = ({detailsId, setDetailsId}) => {
  			<p>{detailsId.overview}</p>
  			<p>{detailsId.release_date}</p>
 			 <div className="youtube">
- 				<Link to='/'><button>Back</button></Link>
+ 				<button><Link to='/'>Back</Link></button>
 			 </div>
  			</div>
  		</div>

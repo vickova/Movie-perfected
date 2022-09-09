@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
-import Toggle from './Toggle';
 import Exit from '../images/exit.svg';
 import Menu from '../images/menu.svg';
 import DarkMode from '../images/darkmode.svg';
@@ -9,6 +8,7 @@ import LightMode from '../images/lightmode.svg';
 import '../App.css'
 
 const Navbar = ({backG, setBackG}) => {
+    const {pathname} = useLocation();
     const [menu, setMenu] = useState(false);
     return (
     <NavBarStyle menu={menu}>
@@ -18,10 +18,8 @@ const Navbar = ({backG, setBackG}) => {
             <img id="menu" src={Menu} alt="menu box" onClick={()=> setMenu(!menu)}/>
             <ul>
                 <div id="tog"><img id="exit" src={Exit} alt="exitbox" onClick={()=> setMenu(!menu)}/></div>
-                <Toggle backG={backG}>
-                <li id="top-mode"><Link to='/trending'>TOP RATED MOVIES</Link></li>
-                <li><Link to='/'>POPULAR</Link></li>
-                </Toggle>
+                <li id="top-mode" className={pathname==='/trending'?'selected':''}><Link to='/trending'>TOP RATED MOVIES</Link></li>
+                <li className={pathname==='/'?'selected':''}><Link to='/'>POPULAR</Link></li>
             </ul>
         </nav>
     </NavBarStyle>
@@ -52,12 +50,22 @@ const NavBarStyle = styled.div`
         ul{
             display: flex;
             justify-content: space-between;
+            .selected{
+                a{
+                background-color: rgb(2, 2, 159);
+                border-radius:8px;
+                color: #FFF;
+                }
+            }
         
         }
         li{
             list-style: none;
             margin:0 2rem;
             font-size: 1.5rem;
+            a{
+            padding:.5rem 1rem;
+            }
         }
     }
     @media screen and (max-width: 685px){

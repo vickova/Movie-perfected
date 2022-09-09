@@ -15,7 +15,7 @@ const Popular = ({detailsId, setDetailsId}) => {
 
 
   const [currentPage, setCurrentPage] = useState(1);
-  const PerPage = 6;
+  const PerPage = 8;
   const indexOfLastExercise = currentPage * PerPage;
 
   const indexOfFirstExercise = indexOfLastExercise - PerPage
@@ -39,7 +39,7 @@ const Popular = ({detailsId, setDetailsId}) => {
 const Paginate = (e, value)=>{
   setCurrentPage(value)
 
-  window.scrollTo({top: 1800, behavior: 'smooth'})
+  window.scrollTo({top: 10, behavior: 'smooth'})
 }
   return (
     <div className="movie-container">
