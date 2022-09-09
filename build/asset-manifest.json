@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.14737f7f.css",
-    "main.js": "/static/js/main.d1c3b4ad.js",
+    "main.js": "/static/js/main.a59dcde5.js",
     "static/js/620.d275e6c2.chunk.js": "/static/js/620.d275e6c2.chunk.js",
     "static/js/430.2db30b73.chunk.js": "/static/js/430.2db30b73.chunk.js",
-    "static/js/44.75f24524.chunk.js": "/static/js/44.75f24524.chunk.js",
-    "static/js/23.255adfa6.chunk.js": "/static/js/23.255adfa6.chunk.js",
+    "static/js/44.7b69c358.chunk.js": "/static/js/44.7b69c358.chunk.js",
+    "static/js/23.b1e3d387.chunk.js": "/static/js/23.b1e3d387.chunk.js",
     "static/js/787.29977552.chunk.js": "/static/js/787.29977552.chunk.js",
     "static/js/471.4bc47e4a.chunk.js": "/static/js/471.4bc47e4a.chunk.js",
     "static/media/lightmode.svg": "/static/media/lightmode.c9fe5a8776e31e99a507780e0599c2c7.svg",
@@ -20,16 +20,16 @@
     "static/media/exit.svg": "/static/media/exit.06c7cdc405f8e56344387814f946447a.svg",
     "static/media/icon-facebook.svg": "/static/media/icon-facebook.e9773e52bc64ea377cb95af7ccb6877e.svg",
     "main.14737f7f.css.map": "/static/css/main.14737f7f.css.map",
-    "main.d1c3b4ad.js.map": "/static/js/main.d1c3b4ad.js.map",
+    "main.a59dcde5.js.map": "/static/js/main.a59dcde5.js.map",
     "620.d275e6c2.chunk.js.map": "/static/js/620.d275e6c2.chunk.js.map",
     "430.2db30b73.chunk.js.map": "/static/js/430.2db30b73.chunk.js.map",
-    "44.75f24524.chunk.js.map": "/static/js/44.75f24524.chunk.js.map",
-    "23.255adfa6.chunk.js.map": "/static/js/23.255adfa6.chunk.js.map",
+    "44.7b69c358.chunk.js.map": "/static/js/44.7b69c358.chunk.js.map",
+    "23.b1e3d387.chunk.js.map": "/static/js/23.b1e3d387.chunk.js.map",
     "787.29977552.chunk.js.map": "/static/js/787.29977552.chunk.js.map",
     "471.4bc47e4a.chunk.js.map": "/static/js/471.4bc47e4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14737f7f.css",
-    "static/js/main.d1c3b4ad.js"
+    "static/js/main.a59dcde5.js"
   ]
 }
